@@ -1,0 +1,13 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+div.menu a{
+color: white;
+text-decoration: none;
+}
+div.menu>div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}

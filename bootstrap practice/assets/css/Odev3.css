@@ -1,0 +1,13 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.navbar .navbar-brand img{
+width: 200px;
+height: auto;
+}
+@media screen and (min-width:576px){
+   .navbar .navbar-brand img{
+    width: 350px;
+   }
+}

@@ -1,0 +1,70 @@
+:root {
+    --color1: #ebb211;
+    --color2: #000;
+    --color3: #04d5fa;
+    --color4: #ce1465;
+
+}
+
+.topbar {
+    background-color: var(--color1);
+}
+
+.topbar a {
+    color: var(--color2);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.topbar a i {
+    color: var(--color3);
+    font-size: 1.2rem;
+}
+
+.nav-item a {
+    font-size: 1.5rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.nav-item a:hover {
+    background-color: var(--color1);
+    color: var(--color3);
+}
+
+.carousel-caption {
+    color: var(--color2);
+    top: 35%;
+    left: 10%;
+    right: 15%;
+    text-align: left !important;
+}
+
+.carousel-caption h5 {
+    font-size: 2.5rem;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+.why  {
+    position: relative;
+    top:-70px;
+    z-index: 99;
+}
+.why i {
+    color: var(--color4);
+    font-size: 3.2rem;
+}
+
+.why .card-body h5 {
+    font-size: 2rem;
+}
+
+.why .row div[class^="col"]:first-child .card {
+    background-color: var(--color1);
+}
